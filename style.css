@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+}
+.title{
+  color: black;
+  text-align: center;
+  font-size: larger;
+  background-color: rgb(181, 62, 56);
+
+}
+h1 img{
+  width: 50px;
+  background-color: rgb(181, 62, 56);
+}
+main{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(181, 62, 56);
+ 
+}
+.box{
+  padding: 15px;
+  width:700px;
+  min-height: 400px;
+  background: rgba(243, 243, 243, 0.07);
+  border-radius: 5px;
+}
+#item{
+  padding: 10px;
+  font-size: 20px;
+  display: block;
+  width: 97%;
+  border: 0;
+  outline: 0;
+  box-shadow: 0px 0px 2px grey;
+}
+#toDoBox{
+  margin-top: 20px;
+  list-style: none;
+  font-size: 1.5rem;
+}
+#toDoBox li{
+  font-family: 'Nerko One', cursive;
+
+  background-color: #888888;
+  color: rgb(50, 48, 48);
+  padding: 10px;
+  border-radius: 2px;
+  padding-right: 10px;
+  text-align: justify;
+  margin-top: 10px;
+  user-select: none;
+ 
+}
+#toDoBox li svg{
+  color: black;
+  
+ 
+}
+.done{
+  text-decoration: line-through;
+  color: black !important;
+  background-color: rgb(109 106 106) !important;
+}
